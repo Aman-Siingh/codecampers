@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.heroImg{
+    width:50%;
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    gap: 34px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 70px;
+    z-index: 1;
+}
+
+
+.brand{
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    width: 10%;
+}
+
+.contentItems{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    color: var(--color-text);
+}
+
+.contentItems h1{
+    font-size: 88px;
+
+}
+
+.contentItems a{
+    max-width: 171px;
+    height: 54px;
+    border-radius:10px; 
+    background: var(--color-primary);
+    padding: 19px 42px;
+    text-decoration: none;
+    color: var(--color-dark);
+
+}
+
+.topBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    right: -126px;
+    bottom: 250px;
+
+}
+
+.bottomBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    left: -126px;
+    top: 250px;
+}
+
+
+
