@@ -1,3 +1,19 @@
-.root{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.hammersmith-one-regular {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400, 100;
+    font-style: normal;
+}
+  
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "hammersmith One";
+}
+
+html{
+    scroll-behavior: smooth;
 }

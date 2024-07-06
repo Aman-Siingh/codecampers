@@ -1,23 +1,53 @@
+@import "../../vars.css";
+
 .container{
+    position: relative;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 17px 24px  ;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 5%;
 }
 
 .content{
     display: flex;
-    align-items:center;
-    gap: 15px;
+    align-items: center;
+    justify-content: left;
+}
+
+.content h1{
+    color: var(--color-text);
+    letter-spacing: 1px;
+}
+
+.content img{
+    width: 13%;
 }
 
 .menu{
     display: flex;
-    gap: 24px;
-    align-items: center;
-    margin-right: 600px;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.menuItem{
+.menuBtn{
+    display: none;
+}
+
+.menuItem a{
+    list-style: none;
     text-decoration: none;
+    color: var(--color-text);
+    font-weight: 100;
+}
+
+@media screen and (max-width:830px) {
+    .menu{
+        display: none;
+    }
+
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+    }
 }
