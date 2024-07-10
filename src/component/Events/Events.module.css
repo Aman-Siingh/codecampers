@@ -1,0 +1,33 @@
+@import "../../vars.css";
+
+
+.eventImg{
+    width: 50%;
+    max-width: 700px;
+    max-height: 300px;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.eventCards{
+    display: flex;
+    gap: 30px;
+}
+
+.eventCard{
+    background: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 25px;
+    padding: 17px 24px;
+    width: 600px;
+    height: 600px;
+}
+
+
+
