@@ -2,14 +2,21 @@
 
 
 .eventImg{
-    width: 50%;
-    max-width: 700px;
-    max-height: 300px;
+    width: max-content;
+    height: max-content;
+    margin-bottom: 24px;
 }
+
+.title{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
 
 .container{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 80px;
 }
 
 .eventCards{
@@ -24,9 +31,9 @@
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 25px;
-    padding: 17px 24px;
-    width: 600px;
-    height: 600px;
+    padding: 50px;
+    width: 540px;
+    height: 480px;
 }
 
 

@@ -4,6 +4,7 @@ import styles from "./App.module.css"
 import Hero from './component/Hero/Hero'
 import Team from "./component/Team/Team.jsx"
 import Events from './component/Events/Events.jsx'
+import Footer from './component/Footer/Footer.jsx'
 
 export default function App() {
 
@@ -13,5 +14,6 @@ export default function App() {
     <Hero/>
     <Team/>
     <Events/>
+    <Footer/>
   </div>
 )}

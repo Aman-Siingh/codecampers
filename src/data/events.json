@@ -1,18 +1,18 @@
 [
     {
-      "Name": "Aman Singh ",
+      "Name": "Event 1",
       "Description": "A serene mountain retreat with breathtaking views and luxurious accommodations.",
-      "Image": "team/member.png"
+      "Image": "events/event.png"
     },
     {
-      "Name": "Shivanshu",
+      "Name": "Event 2",
       "Description": "A modern apartment located in the heart of the city, close to all major attractions.",
-      "Image": "team/member.png"
+      "Image": "events/event.png"
     },
     {
-      "Name": "Shivanshu",
+      "Name": "Event 3",
       "Description": "A modern apartment located in the heart of the city, close to all major attractions.",
-      "Image": "team/member.png"
+      "Image": "events/event.png"
     }
 ]
   

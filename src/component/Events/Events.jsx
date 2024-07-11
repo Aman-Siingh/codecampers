@@ -7,7 +7,7 @@ export default function Events() {
   return (
     <section className={styles.container}>
         <h1 className={styles.title}>EVENTS</h1>
-        <div className={styles.eventCards}>
+        <a href="/" className={styles.eventCards}>
             {
                 events.map((Event,id)=>{
                     return(
@@ -21,7 +21,7 @@ export default function Events() {
                     )
                 })
             }
-        </div>
+        </a>
     </section>
   )
 }
