@@ -22,6 +22,8 @@ export default function Events() {
                 })
             }
         </a>
+        <div className={styles.topBlur}></div>
+        <div className={styles.bottomBlur}></div>
     </section>
   )
 }

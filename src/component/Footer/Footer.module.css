@@ -1,0 +1,73 @@
+@import '../../vars.css';
+
+
+.socialIcon{
+    width: 50%;
+}
+
+
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 2;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.icons{
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.brand{
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 90px;
+    padding-bottom: 30px;
+
+}
+
+.brand img{
+    width: 5%;
+}
+
+.brand p{
+    font-size: 20px;
+}
+
+.text{
+    width: 50%;
+}
+
+.text p{
+    color: var(--color-primary)
+}
+
+.topBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    right: -126px;
+    bottom: 2px;
+
+}
+

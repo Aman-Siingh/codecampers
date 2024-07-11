@@ -4,6 +4,7 @@
     width: 50%;
     max-width:400px;
     max-height: 400px;
+    z-index: 1;
 }
 
 .container{
@@ -29,5 +30,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
+}
+
+.topBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    right: -126px;
+    bottom: 550px;
+
+}
+
+.bottomBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    left: -126px;
+    top: 250px;
 }
 

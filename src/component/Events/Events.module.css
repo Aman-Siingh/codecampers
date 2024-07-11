@@ -14,9 +14,11 @@
 
 
 .container{
+    position: relative;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 80px;
+    z-index: 2;
 }
 
 .eventCards{
@@ -34,7 +36,41 @@
     padding: 50px;
     width: 540px;
     height: 480px;
+    z-index: 1;
 }
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    right: -126px;
+    bottom: 250px;
+
+}
+
+.bottomBlur{
+    position:absolute;
+    background: rgba(242,188,0,0.3);
+    width: 30vw;
+    height: 30vw;
+    border-radius: 350px;
+    filter: blur(100px);
+    z-index: 0;
+    left: -126px;
+    top: 250px;
+}
+
 
 
 

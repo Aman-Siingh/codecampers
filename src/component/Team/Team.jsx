@@ -18,6 +18,8 @@ export default function Team () {
                 </div>
           ))}
         </div>
+        <div className={styles.topBlur}></div>
+        <div className={styles.bottomBlur}></div>
     </section>
   )
 }
